@@ -1,0 +1,10 @@
+[project]
+name = "your-project-server"
+version = "0.1.0"
+description = "Your project backend server"
+requires-python = ">=3.9"
+
+[tool.uvicorn]
+app = "main:app"
+reload = true
+port = 8000
